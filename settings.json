@@ -1,7 +1,7 @@
-{
+I{
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "seh dich immer",
     "password": "",
     "type": "offline"
   },
@@ -29,11 +29,13 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 200,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "Moin wie gehts dir?",
+        "Hallo?",
+        "Ich seh dich...", 
+        "du bist nicht soweit weg wie du denkst", 
+        "schöne sachen die du machst" 
       ]
     },
     "chat-log": true,
@@ -42,9 +44,9 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
